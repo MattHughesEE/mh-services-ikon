@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ikonik
+  description: sample backstage component
+  tags:
+    - sample
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+spec:
+  type: service
+  lifecycle: experimental
+  owner: core-services
